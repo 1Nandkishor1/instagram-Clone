@@ -1,0 +1,47 @@
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+
+    .loginform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        
+        h1{
+            font-size: 3rem;
+        }
+
+        form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        input,.button{
+            border: none;
+            padding-inline: 10rem;
+            padding-block: 1rem;
+            border-radius: 0.5rem;
+            font-size: 1rem;
+        }
+        .button{
+            background-color: rgb(188, 20, 20);
+            color: white;
+        }
+
+
+        }
+
+        .linktag{
+            text-decoration: none;
+            color:aqua
+        }
+    }
+
+}
